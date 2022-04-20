@@ -32,7 +32,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="caviar-single-dish " data-wow-delay="0.4s">
                     <img src="{{urlproducto}}colgate_ocbkiw.png" alt="colgate">
-                    <div class="dish-info" [routerLink]="['/ProductoColgate']">
+                    <div class="dish-info"  (click)="Carga();"  [routerLink]="['/ProductoColgate']">
                         <p class="dish-name"> <br><br>Cepillos<br> Pasta dental Enjuague bucal Hilo dental<br><br></p>
                         <p class="dish-price"><i class="fa fa-angle-double-right"></i></p>
 
@@ -42,7 +42,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.6s">
                     <img src="{{urlproducto}}familia_algvu7.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoPapel']">
+                    <div class="dish-info" (click)="Carga();"  [routerLink]="['/ProductoPapel']">
                         <p class="dish-name">
                             <br> Papel<br> Pañitos humedos Servilletas Toallas sanitarias
                         </p>
@@ -53,7 +53,7 @@
             <div class="col-12 col-sm-6 col-md-4">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
                     <img src="{{urlproducto}}limpieza_facial_uiawqh.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoJabon']">
+                    <div class="dish-info" (click)="Carga();"  [routerLink]="['/ProductoJabon']">
                         <p class="dish-name">
                             <br>Jaboncillos Desodorantes Shampoo<br> Crema de peinar<br> Gel<br>
                         </p>
@@ -64,7 +64,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.4s">
                     <img src="{{urlproducto}}limpieza_objetos_kzlcpd.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoLimpieza']">
+                    <div class="dish-info" (click)="Carga();" [routerLink]="['/ProductoLimpieza']">
                         <p class="dish-name">
                             <br> Suavisante de ropa
                             <br>Desinfectantes
@@ -78,7 +78,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.6s">
                     <img src="{{urlproducto}}bebidas_frias_grwknx.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoBebidas']">
+                    <div class="dish-info"  (click)="Carga();" [routerLink]="['/ProductoBebidas']">
                         <p class="dish-name">
                             <br>Energizantes Saviloe
                             <br>Bebidas solubles
@@ -92,12 +92,12 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
                     <img src="{{urlproducto}}azuca_avena_b7mego.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoAvena']">
+                    <div class="dish-info" (click)="Carga();" [routerLink]="['/ProductoAvena']">
                         <p class="dish-name">
                             <br>
                             <br>Azucar
                             <br>Avena
-                            <br> Maizabroza
+                            <br>Maizabrosa
                             <br>
                             <br>
                         </p>
@@ -108,10 +108,10 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.4s">
                     <img src="{{urlproducto}}fideos_atun_idcreq.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoFideo']">
+                    <div class="dish-info" (click)="Carga();"  [routerLink]="['/ProductoFideo']">
                         <p class="dish-name">
                             <br>Fideos
-                            <br>Tallarin
+                            <br>tallarín
                             <br>Lasaña
                             <br>Atun
                             <br>Sardina
@@ -123,7 +123,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.6s">
                     <img src="{{urlproducto}}dulces_chocolates_uri1a7.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoDulce']">
+                    <div class="dish-info"(click)="Carga();"  [routerLink]="['/ProductoDulce']">
                         <p class="dish-name">
                             <br>Caramelos Chocolates Dulces
                             <br>
@@ -137,7 +137,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
                     <img src="{{urlproducto}}agripac_j6zxgf.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoAgripac']">
+                    <div class="dish-info" (click)="Carga();"  [routerLink]="['/ProductoAgripac']">
                         <p class="dish-name">
                             <br>Comida de perro
                             <br>Comida de<br> gato<br>
@@ -151,7 +151,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.4s">
                     <img src="{{urlproducto}}limpieza_hc8efl.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoEstrella']">
+                    <div class="dish-info" (click)="Carga();" [routerLink]="['/ProductoEstrella']">
                         <p class="dish-name">
                             <br>Cera de piso Escobas Trapeadores Guantes
                             <br> Viruta Multiusos
@@ -164,7 +164,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="0.6s">
                     <img src="{{urlproducto}}bebidas_calientes_phr5tq.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoCafe']">
+                    <div class="dish-info" (click)="Carga();" [routerLink]="['/ProductoCafe']">
                         <p class="dish-name">
                             <br>
                             <br>
@@ -182,7 +182,7 @@
             <div class="col-12 col-sm-6 col-md-4" style="padding-top:10px;">
                 <div class="caviar-single-dish wow fadeInUp" data-wow-delay="1s">
                     <img src="{{urlproducto}}licores_wgkgxo.png" alt="">
-                    <div class="dish-info" [routerLink]="['/ProductoLicor']">
+                    <div class="dish-info" (click)="Carga();" [routerLink]="['/ProductoLicor']">
                         <p class="dish-name">
                             <br>Wisky <br> Vodka <br> Tequila <br> Ron<br> Aguardiente<br> Vino
                         </p>
